@@ -7,18 +7,21 @@
     <link rel="stylesheet" href="css/bootstrap.min.css" />
 
 </head>
-<body ng-app="pokedex">
+<body ng-app>
 
-	<div class="container">
-		<h1>Pokésir</h1>
+<div>
+IdP: <input type="text" ng-model='idPok'></br>
+Nom: <input type="text" ng-model="nomPok">
+<select>
+<option></option>
+<option></option>
+</select>
+<input type="submit" value="Get">
+</div>
+<br>
+id et nom : {{idPok+ " " + nomPok}}
 
-		<!-- Search -->
-		<div></div>
-
-		<!-- Pokémon information -->
-		<div></div>
-
-	</div>
+	
 
     <!-- Dependencies -->
     <script src="js/jquery.min.js"></script>
@@ -32,3 +35,4 @@
 
 </body>
 </html>
+
